@@ -1,0 +1,23 @@
+{
+  "name": "recursionvsunrolling",
+  "version": "1.0.0",
+  "description": "The purpose of this example is to provide a simple guide to showing a user how to solve a problem with recursion and loop unrolling and to have a conversation about the pros and cons of each technique.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx jest -u",
+    "test:debug": "node --inspect-brk ./node_modules/.bin/jest --verbose --runInBand --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkandathil/recursionVsUnrolling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkandathil/recursionVsUnrolling/issues"
+  },
+  "homepage": "https://github.com/pkandathil/recursionVsUnrolling#readme",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
